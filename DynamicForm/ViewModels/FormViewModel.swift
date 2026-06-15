@@ -461,16 +461,24 @@ final class FormViewModel: ObservableObject {
 
     private func isValidHost(_ host: String) -> Bool {
         let hostParts = host
+            .lowercased()
             .split(separator: ".", omittingEmptySubsequences: false)
             .map(String.init)
-
+        
         guard hostParts.count >= 2 else {
             return false
         }
-
-        return hostParts.allSatisfy { $0.count >= 2 }
+        
+        guard hostParts.allSatisfy({ $0.count >= 2 }) else {
+            return false
+        }
+        
+        return host.range(
+            of: #"^[a-z0-9-]+(\.[a-z0-9-]+)+$"#,
+            options: .regularExpression
+        ) != nil
     }
-
+    
     private func normalizedURLString(_ value: String) -> String {
         let trimmedValue = value.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmedValue.isEmpty else {
