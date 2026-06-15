@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Views/DynamicFormContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, world!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 17
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,23 @@
+//
+//  Localizable.strings
+//  DynamicForm
+//
+//  Created by Mrinmoy Kumar on 14/06/26.
+//
+
+"json_file_not_found" = "JSON file not found.";
+"something_went_wrong" = "Something went wrong.";
+"loading_form" = "Loading form...";
+"retry" = "Retry";
+"no_form_available" = "No form available.";
+"required_field_indicator" = "*";
+"select_option" = "Select";
+"dropdown_no_options" = "No options available.";
+"save" = "Save";
+"keyboard_next" = "Next";
+"keyboard_done" = "Done";
+"field_required" = "This field is required.";
+"text_minimum_characters" = "Enter at least one character.";
+"number_invalid" = "Enter numbers only.";
+"secure_invalid" = "Use at least 8 characters with letters, numbers, and a special symbol.";
+"uri_invalid" = "Enter a valid URL.";

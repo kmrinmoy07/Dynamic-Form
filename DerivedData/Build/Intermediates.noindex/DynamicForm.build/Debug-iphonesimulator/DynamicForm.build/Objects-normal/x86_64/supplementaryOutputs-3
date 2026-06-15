@@ -1,0 +1,23 @@
+{
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/CampaignFormConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CampaignFormConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CampaignFormConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CampaignFormConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CampaignFormConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CampaignFormConfig.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/FieldTypes/TextSubtype.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextSubtype.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextSubtype.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextSubtype.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextSubtype.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextSubtype.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/FormField.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/FormField.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/FormField.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/FormField.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/FormField.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/FormField.swiftdeps"
+  }
+}

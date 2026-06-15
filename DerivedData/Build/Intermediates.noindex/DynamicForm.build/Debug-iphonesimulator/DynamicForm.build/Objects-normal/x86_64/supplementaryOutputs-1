@@ -1,0 +1,23 @@
+{
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/Fields/CheckboxFieldConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CheckboxFieldConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CheckboxFieldConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CheckboxFieldConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CheckboxFieldConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/CheckboxFieldConfig.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/Fields/DropdownFieldConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/DropdownFieldConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/DropdownFieldConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/DropdownFieldConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/DropdownFieldConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/DropdownFieldConfig.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/Fields/TextFieldConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextFieldConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextFieldConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextFieldConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextFieldConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphonesimulator/DynamicForm.build/Objects-normal/x86_64/TextFieldConfig.swiftdeps"
+  }
+}

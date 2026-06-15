@@ -1,0 +1,23 @@
+{
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/FieldTypes/FieldType.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/FieldType.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/FieldType.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/FieldType.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/FieldType.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/FieldType.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/Fields/ToggleFieldConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/ToggleFieldConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/ToggleFieldConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/ToggleFieldConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/ToggleFieldConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/ToggleFieldConfig.swiftdeps"
+  },
+  "/Users/mrinmoy/Documents/DynamicForm/DynamicForm/Models/Fields/UnknownFieldConfig.swift" : {
+    "const-values" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/UnknownFieldConfig.swiftconstvalues",
+    "dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/UnknownFieldConfig.d",
+    "diagnostics" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/UnknownFieldConfig.dia",
+    "object" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/UnknownFieldConfig.o",
+    "swift-dependencies" : "/Users/mrinmoy/Documents/DynamicForm/DerivedData/Build/Intermediates.noindex/DynamicForm.build/Debug-iphoneos/DynamicForm.build/Objects-normal/arm64/UnknownFieldConfig.swiftdeps"
+  }
+}
