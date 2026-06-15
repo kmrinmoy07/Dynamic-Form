@@ -21,3 +21,4 @@
 "number_invalid" = "Enter numbers only.";
 "secure_invalid" = "Use at least 8 characters with letters, numbers, and a special symbol.";
 "uri_invalid" = "Enter a valid URL.";
+"regex_invalid" = "Entered value does not meet required input pattern";

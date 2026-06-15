@@ -12,6 +12,7 @@ struct TextFieldConfig: Codable, Equatable {
     let maxLength: Int?
     let errorMessage: String?
     let required: Bool?
+    let regex: String?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -25,5 +26,6 @@ struct TextFieldConfig: Codable, Equatable {
         case maxLength = "max_length"
         case errorMessage = "error_message"
         case required
+        case regex
     }
 }

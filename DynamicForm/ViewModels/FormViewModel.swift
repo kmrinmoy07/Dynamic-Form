@@ -357,34 +357,55 @@ final class FormViewModel: ObservableObject {
     private func validateText(_ field: TextFieldConfig) -> String? {
         let fieldID = fieldID(for: field)
         let value = (values[fieldID] as? String ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
-
+        
         if field.required == true && value.isEmpty {
             return validationMessage(field.errorMessage, fallback: "field_required".localized)
         }
-
+        
         guard !value.isEmpty else {
             return nil
         }
-
+        
         switch field.subtype {
         case .number:
-            return isNumber(value)
-                ? nil
-                : "number_invalid".localized
+            guard isNumber(value) else {
+                return "number_invalid".localized
+            }
+            
         case .secure:
-            return isSecureText(value)
-                ? nil
-                : "secure_invalid".localized
+            guard isSecureText(value) else {
+                return "secure_invalid".localized
+            }
+            
         case .uri:
             let normalizedValue = normalizedURLString(value)
-            if isURL(normalizedValue) {
-                values[fieldID] = normalizedValue
-                return nil
+            guard isURL(normalizedValue) else {
+                return "uri_invalid".localized
             }
-            return "uri_invalid".localized
+            
+            values[fieldID] = normalizedValue
+            
         default:
+            break
+        }
+        
+        if let regexError = validateRegexIfNeeded(field: field, value: values[fieldID] as? String ?? value) {
+            return regexError
+        }
+        
+        return nil
+    }
+    
+    private func validateRegexIfNeeded(field: TextFieldConfig, value: String) -> String? {
+        guard let regex = field.regex?.trimmingCharacters(in: .whitespacesAndNewlines),
+              !regex.isEmpty else {
             return nil
         }
+        guard value.range(of: regex, options: .regularExpression) != nil else {
+            return "regex_invalid".localized
+        }
+        
+        return nil
     }
 
     private func validationMessage(_ configuredMessage: String?, fallback: String) -> String {
