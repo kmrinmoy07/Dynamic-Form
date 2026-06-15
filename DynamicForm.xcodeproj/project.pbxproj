@@ -10,33 +10,9 @@
 		528E7F952FDC43B9000E574F /* DynamicForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		528E7FD82FDDFF55000E574F /* Exceptions for "DynamicForm" folder in "DynamicForm" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				.strings,
-			);
-			target = 528E7F942FDC43B9000E574F /* DynamicForm */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		528E7FD92FDDFF55000E574F /* Exceptions for "DynamicForm" folder in "Compile Sources" phase from "DynamicForm" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 528E7F912FDC43B9000E574F /* Sources */;
-			membershipExceptions = (
-				.strings,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		528E7F972FDC43B9000E574F /* DynamicForm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				528E7FD82FDDFF55000E574F /* Exceptions for "DynamicForm" folder in "DynamicForm" target */,
-				528E7FD92FDDFF55000E574F /* Exceptions for "DynamicForm" folder in "Compile Sources" phase from "DynamicForm" target */,
-			);
 			path = DynamicForm;
 			sourceTree = "<group>";
 		};

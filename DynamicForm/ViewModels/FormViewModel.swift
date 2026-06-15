@@ -370,22 +370,20 @@ final class FormViewModel: ObservableObject {
         case .number:
             return isNumber(value)
                 ? nil
-                : validationMessage(field.errorMessage, fallback: "number_invalid".localized)
+                : "number_invalid".localized
         case .secure:
             return isSecureText(value)
                 ? nil
-                : validationMessage(field.errorMessage, fallback: "secure_invalid".localized)
+                : "secure_invalid".localized
         case .uri:
             let normalizedValue = normalizedURLString(value)
             if isURL(normalizedValue) {
                 values[fieldID] = normalizedValue
                 return nil
             }
-            return validationMessage(field.errorMessage, fallback: "uri_invalid".localized)
+            return "uri_invalid".localized
         default:
-            return value.isEmpty
-                ? validationMessage(field.errorMessage, fallback: "text_minimum_characters".localized)
-                : nil
+            return nil
         }
     }
 
@@ -458,7 +456,19 @@ final class FormViewModel: ObservableObject {
         guard let url = URL(string: normalizedValue), let scheme = url.scheme, let host = url.host else {
             return false
         }
-        return ["http", "https"].contains(scheme.lowercased()) && !host.isEmpty
+        return ["http", "https"].contains(scheme.lowercased()) && isValidHost(host)
+    }
+
+    private func isValidHost(_ host: String) -> Bool {
+        let hostParts = host
+            .split(separator: ".", omittingEmptySubsequences: false)
+            .map(String.init)
+
+        guard hostParts.count >= 2 else {
+            return false
+        }
+
+        return hostParts.allSatisfy { $0.count >= 2 }
     }
 
     private func normalizedURLString(_ value: String) -> String {
